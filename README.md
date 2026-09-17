@@ -1,7 +1,11 @@
 ![Build & Test Pipeline](https://github.com/arick579/AI-Newsroom-Multi-Agent/actions/workflows/deploy.yml/badge.svg)
 # MLH AI Newsroom: Multi-Agent Stateful Workflow
-
 An autonomous web application engineered with **Flask** and **Backboard API** in a Linux (Ubuntu) environment. The system orchestrates 3 specialized AI agents (*Researcher*, *Writer*, *Editor*) operating in a closed-loop review and revision relay.
+
+## Project Overview
+* Engineered a Flask-based web application leveraging the Backboard.io API to orchestrate 3 specialized AI agents in a Linux (Ubuntu) environment with automated feedback and revision loops. 
+* Enforced strict credential isolation using environment variables for API key management and developed an interactive single-page UI displaying real-time agent status telemetry across dynamic result tabs. 
+* Authored a comprehensive one-shot system prompt to autonomously generate the full-stack app architecture, managing stateful API thread separation to safely pass output contexts between agent execution stages.
 
 ## Context
 
