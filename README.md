@@ -7,9 +7,17 @@ An autonomous web application engineered with **Flask** and **Backboard API** in
 * Enforced strict credential isolation using environment variables for API key management and developed an interactive single-page UI displaying real-time agent status telemetry across dynamic result tabs. 
 * Authored a comprehensive one-shot system prompt to autonomously generate the full-stack app architecture, managing stateful API thread separation to safely pass output contexts between agent execution stages.
 
+
 ## Context
 
-Developed for **MLH (Major League Hacking) – Global Hack Week: Agents (Challenge 6: Multi-Agent Systems) | August 2026**. The goal was to engineer an end-to-end multi-agent relay application using a single-shot prompt and environment-secured stateful API calls.
+Developed for **Major League Hacking (MLH) – Global Hack Week: Agents** (August 2026). 
+
+This repository tackles the capstone challenge of the Multi-Agent Systems track:
+
+1. *Challenge 6: One-Shot a Multi-Agent Web App (Final Boss)*
+
+The goal was to engineer an end-to-end multi-agent relay application using a single-shot prompt and environment-secured stateful API calls.
+
 
  ## Tech Stack
  
