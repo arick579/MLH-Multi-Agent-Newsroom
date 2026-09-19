@@ -29,7 +29,6 @@ Frontend: HTML5, CSS3, JavaScript
 
 Environment: Ubuntu (WSL2 / Linux)
 
----
 
 ##  Architecture & Workflow
 
@@ -61,9 +60,9 @@ The application executes a stateful, four-stage feedback loop:
 * **Responsive Single-Page UI**: Dark-mode tabbed interface rendering real-time execution steps.
 * **Environment-Based Security**: Complete key isolation via Linux environment variables.
 
----
 
-## One-Shot Engineering Prompt
+
+## One-Shot Prompt
 
 ```text
 Build a complete multi-agent web app called "AI Newsroom" in Python using Flask and HTML/CSS/JS.
